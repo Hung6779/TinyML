@@ -1,0 +1,36 @@
+Dưới đây là các bước để tạo một Git repo trên máy cục bộ của bạn và đẩy nó lên GitHub:
+
+Tạo một Git repo trên máy cục bộ:
+Mở terminal hoặc command prompt.
+Di chuyển đến thư mục mà bạn muốn tạo repo.
+Chạy lệnh sau để tạo một repo mới:
+bash
+Sao chép mã
+mkdir my_project
+cd my_project
+git init
+Thêm và commit các tệp vào repo:
+Thêm các tệp vào repo bằng cách sử dụng lệnh git add.
+Sau đó, commit các tệp đã thêm bằng lệnh git commit:
+sql
+Sao chép mã
+git add .
+git commit -m "Initial commit"
+Tạo một repo trên GitHub:
+Đăng nhập vào tài khoản GitHub của bạn.
+Ở góc trên bên phải của trang web GitHub, nhấp vào biểu tượng "New" (một biểu tượng cộng).
+Đặt tên cho repo của bạn và chọn các cài đặt khác theo mong muốn của bạn.
+Nhấp vào nút "Create repository" để tạo repo trên GitHub.
+Liên kết repo cục bộ với repo trên GitHub:
+Sao chép URL của repo GitHub của bạn.
+Trong terminal, thêm remote repo bằng lệnh sau, thay thế <repository-url> bằng URL bạn đã sao chép:
+csharp
+Sao chép mã
+git remote add origin <repository-url>
+Đẩy các thay đổi lên GitHub:
+Sử dụng lệnh sau để đẩy các commit cục bộ của bạn lên repo trên GitHub:
+perl
+Sao chép mã
+git push -u origin master
+Bạn có thể cần đăng nhập vào GitHub để xác thực.
+Bây giờ repo của bạn đã được tạo trên GitHub và các tệp của bạn đã được đẩy lên.:
